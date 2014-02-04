@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Minable::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Joe Dinsdale", "Luke Barratt"]
-  s.email       = ["mrjdinsdale@gmail.com"]
+  s.email       = ["digital@bolser.co.uk"]
   s.license     = 'MIT'
   s.homepage    = "https://github.com/bolser/minable"
   s.summary     = "Sass Mixins using SCSS syntax."

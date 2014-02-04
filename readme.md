@@ -2,6 +2,8 @@
 
 Minable is a minimal CSS framework written in SCSS. It's based on Yahoo's [Pure CSS](http://purecss.io/) and thoughtbot's [Bourbon](http://bourbon.io/).
 
+Minable is in very early in development, expect breaking changes in the near future. Documentation and examples coming soon.
+
 ## Requirements
 Sass 3.2+
 
