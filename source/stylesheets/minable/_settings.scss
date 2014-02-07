@@ -1,0 +1,25 @@
+// Variable declaration. Define any constants for easy updating such as colours, sizes and fonts.
+
+// Colours (Pre-define colours to use in project)
+$color-white: #FFF;
+$color-purple: #703493;
+$color-dark-grey: #333;
+
+// Fonts (Pre-define fonts to use in project)
+
+// Used to calculate rem values etc
+$browser-default-font-size: 16px;
+
+$font1: 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font2: 'Gentium Basic', serif;
+
+// Breakpoints (used by grid to calculate additional breakpoints)
+$break-m: 767px;
+$break-s: 430px;
+
+$breakpoints: m $break-m, s $break-s;   // Additional breakpoints, exports to .pure-u-m-1-4 etc
+
+
+// Grid control
+$site-width: 1200px;    // Max site width (Max width of .min-container elements)
+$site-gutter: 20px;     // Define the gutter between columns in px

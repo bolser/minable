@@ -1,0 +1,58 @@
+// Minable Grid Core
+
+/* =================== Basic usage ===================
+
+<div class="min-container">     Sets outer container (auto centered)
+  <div class="min-g">           Sets responive row container, negative margin to counters outer margin
+    <div class="min-u-1-4">     Sets 1/4 width element
+
+    </div>
+    <div class="min-u-3-4">     Sets 3/4 width element
+
+    </div>
+  </div>
+</div>
+
+*/
+
+.min-g {
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  // IE10 uses display: flexbox
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+
+  font-size: 0;
+}
+
+.min-u {
+  display: inline-block;
+  *display: inline;
+}
+
+// Requried variables - leaves these be.
+$breakpoints: false !default; // Required for the grid extender
+$site-usable-gutter: strip-unit($site-gutter) / 2; // Cuts the defined gutter in half for use as padding
+
+// This element would wrap any outer most elements to restrict them to the $site-width
+.min-container {
+    max-width: $site-width;
+    margin: 0 auto;
+}
+
+// Set a negative offset for gutter padding
+.min-g .min-g {
+  margin-right: -#{$site-usable-gutter}px;
+  margin-left: -#{$site-usable-gutter}px;
+}
+
+// We want this guff to apply to our custom grids as well.
+[class *= "min-u"] {
+  display: inline-block;
+  *display: inline;
+  font-size: $browser-default-font-size;
+  padding-right: #{$site-usable-gutter}px;
+  padding-left: #{$site-usable-gutter}px;
+  vertical-align: top;
+  zoom: 1;
+}
