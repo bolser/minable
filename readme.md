@@ -1,3 +1,5 @@
+[![Minable](http://bolser.github.io/minable/images/minable_logo_300w.png)](http://bolser.github.io/minable/)
+
 [![Gem Version](https://badge.fury.io/rb/minable.png)](http://badge.fury.io/rb/minable)
 
 # Minable
@@ -10,7 +12,7 @@ Minable is very early in development, expect breaking changes in the near future
 Sass 3.2+
 
 # SASS projects
-Minable includes an easy way to generate a directory with all the necessary files.  
+Minable includes an m way to generate a directory with all the necessary files.  
 For command line help: `$ minable help`
 
 #### Install
