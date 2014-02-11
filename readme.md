@@ -62,8 +62,8 @@ Basic example of grid usage:
 
     <div class="min-container">                   /* Sets outer container (auto centered) */
       <div class="min-g">                         /* Sets responive row container, negative margin to counters outer margin */
-        <div class="min-u-1-4">Content</div>    /* Sets 1/4 width element */
-        <div class="min-u-3-4">Content</div>    /* Sets 3/4 width element */
+        <div class="min-u-1-4">Content</div>      /* Sets 1/4 width element */
+        <div class="min-u-3-4">Content</div>      /* Sets 3/4 width element */
       </div>
     </div>
 
