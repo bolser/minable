@@ -1,4 +1,4 @@
-[![Minable](http://bolser.github.io/minable/images/minable-logo-dark.png)](http://bolser.github.io/minable/)
+[![Minable](http://bolser.github.io/minable/images/minable_logo_dark_w300.png)](http://bolser.github.io/minable/)
 
 [![Gem Version](https://badge.fury.io/rb/minable.png)](http://badge.fury.io/rb/minable)
 
