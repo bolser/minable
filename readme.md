@@ -12,7 +12,7 @@ Minable is very early in development, expect breaking changes in the near future
 Sass 3.2+
 
 # SASS projects
-Minable includes an m way to generate a directory with all the necessary files.  
+Minable includes an m way to generate a directory with all the necessary files.
 For command line help: `$ minable help`
 
 #### Install
@@ -55,6 +55,29 @@ Delete the sprocket directive in application.css.scss.
 Import Minable at the beginning of application.css.scss. All additional stylesheets must be imported below Minable:
 
     @import "minable";
+
+Examples
+-------
+Basic example of grid usage:
+
+    <div class="min-container">                   /* Sets outer container (auto centered) */
+      <div class="min-g">                         /* Sets responive row container, negative margin to counters outer margin */
+        <div class="min-u-1-4 "> Content </div>    /* Sets 1/4 width element */
+        <div class="min-u-3-4"> Content </div>    /* Sets 3/4 width element */
+      </div>
+    </div>
+
+##### Grid Settings
+
+The grid is controlled in settings.scss, here you can set variables for breakpoints, site width and gutters.
+
+Setting additonal breakpoints
+
+    $breakpoints: m $break-m, s $break-s;   /* Additional breakpoints, exports to .pure-u-m-1-4 etc */
+
+    $break-m: 767px;
+    $break-s: 430px;
+
 
 License
 -------
