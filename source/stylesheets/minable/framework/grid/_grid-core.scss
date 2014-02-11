@@ -56,3 +56,7 @@ $site-usable-gutter: strip-unit($site-gutter) / 2; // Cuts the defined gutter in
   vertical-align: top;
   zoom: 1;
 }
+
+.centered {
+  margin: 0 auto;
+}
