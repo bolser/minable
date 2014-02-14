@@ -7,5 +7,11 @@ body {
 
 .site-wrapper {
   background-color: $flatBone;
-  margin-top: 10px;
+  border-bottom: 1em solid $darkGreen;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.content-home-block {
+  padding-top: 2em;
 }

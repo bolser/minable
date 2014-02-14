@@ -8,3 +8,44 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: $openSansCondensed;
 }
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  color: $morning;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($morning, 10);
+  }
+}
+
+pre {
+  background-color: #FEFEFE;
+  margin: 0 10px;
+  padding: 1em 2em;
+}
+
+.text-centered {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+
+
+.text-color-morning {
+  color: $morning;
+}
+
+.text-color-darkGreen {
+  color: $darkGreen;
+}
+
+.min-button {
+  background-color: $darkGreen;
+  color: $flatBone;
+  font-size: 1.4em;
+}

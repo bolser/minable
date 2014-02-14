@@ -10,5 +10,72 @@ title: Minable - Home
 
 <section class="min-u-1 hero-banner">
   <div class="min-inner">
+    <div class="demo-grid">
+      <div class="min-g">
+        <div class="min-u-1-2"><div class="min-inner box"></div></div>
+        <div class="min-u-1-4"><div class="min-inner box"></div></div>
+        <div class="min-u-1-4"><div class="min-inner box"></div></div>
+
+        <div class="min-u-2-5"><div class="min-inner box"></div></div>
+        <div class="min-u-1-5"><div class="min-inner box"></div></div>
+        <div class="min-u-2-5"><div class="min-inner box"></div></div>
+      </div>
+    </div>
   </div>
 </section>
+
+<section class="min-u-1 text-centered content-home-block">
+  <div class="min-inner">
+    <h1>What is minable?</h1>
+    <p>Minable is a minimal CSS framework written in SCSS. It's based on Yahoo's <a href="http://purecss.io/">Pure CSS</a> and thoughtbot's <a href="http://bourbon.io" target="_blank">Bourbon</a>.</p>
+
+    <p>Minable is very early in development, expect breaking changes in the near future. Documentation and examples coming soon.</p>
+
+    <button class="btn-github min-button text-centered">View on GitHub</button>
+  </div>
+</section>
+
+<section class="min-u-1 text-centered content-home-block">
+  <h2>How it works</h2>
+
+  <p>The markup for <strong>minable</strong> is simple, here is a typical layout:</p>
+
+  <div class="min-g">
+    <div class="min-u-1-2 min-u-m-1">
+    <div class="min-inner">
+        <pre class="text-left">
+&lt;div class="min-container"&gt;
+  &lt;div class="min-g"&gt;
+    &lt;div class="min-u-1-4"&gt;
+      &lt;div class="min-inner"&gt;
+        <strong><span class="text-color-morning">Content</span></strong>
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="min-u-3-4"&gt;
+      &lt;div class="min-inner"&gt;
+        <strong><span class="text-color-morning">Content</span></strong>
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+      </div>
+    </div>
+    <div class="min-u-1-2 min-u-m-1">
+      <div class="min-inner">
+        <ul class="text-left list-centered">
+          <li><strong>.min-container</strong> - <em>Optional</em> wrapper which sets the max grid width.</li>
+          <li><strong>.min-g</strong> - Minable row.</li>
+          <li><strong>.min-u-1-4</strong> - Minable unit class, for a full list <a href="#">click here</a>.</li>
+          <li><strong>.min-inner</strong> - The inner unit sets the gutter.</li>
+        </ul>
+
+        <p class="text-left">While this method requires more markup, it allows compatibility with IE7 out of the box. We are working on an option to disable legacy support to allow for cleaner markup if not required.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="min-u-1 text-centered content-home-block">
+  <h2>Customising your grid</h2>
+
+  <p>The focus of <strong>minable</strong> is to be flexible. To customise your grid open <em>_settings.scss</em>, here you have a variety of options available:</p>

@@ -1,8 +1,15 @@
 // Homepage styling
 
 .hero-banner {
-  background-color: $lightGreen;
+  background-color: $morning;
   border-top: 4px solid $darkGreen;
   border-bottom: 4px solid $darkGreen;
-  min-height: 350px;
+  margin-bottom: 1em;
+  padding: 1em;
+
+  .box {
+    background-color: lighten($morning, 10);
+    margin: 5px;
+    min-height: 90px;
+  }
 }
