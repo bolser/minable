@@ -1,1 +1,10 @@
 // Include typography styling, extend framework/typecsset.scss where possible!
+
+body {
+  color: $darkGrey;
+  font-family: $openSans;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $openSansCondensed;
+}

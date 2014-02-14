@@ -1,1 +1,11 @@
 // Containers styling to be used for page body content etc
+
+body {
+  background: $morning image-url("bg-texture-light.png");
+  padding: 10px;
+}
+
+.site-wrapper {
+  background-color: $flatBone;
+  margin-top: 10px;
+}

@@ -1,6 +1,19 @@
 // Header styling
 
 .masthead {
+  margin-bottom: 1,5em;
   margin-top: 2em;
   text-align: center;
+}
+
+.main-logo {
+  width: 400px;
+}
+
+.tagline {
+  font-family: $openSans;
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 1em;
+  margin-top: 0.5em;
 }

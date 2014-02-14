@@ -43,9 +43,11 @@ $min-class-output: true !default;
 
   font-size: 0;
 
-  // Gutter offset to prevent outermost gutter
-  margin-right: -#{$site-usable-gutter}px;
-  margin-left: -#{$site-usable-gutter}px;
+  .min-g {
+    // Gutter offset to prevent outermost gutter
+    margin-right: -#{$site-usable-gutter}px;
+    margin-left: -#{$site-usable-gutter}px;
+  }
 }
 
 // We want this to apply to our custom grids as well.
