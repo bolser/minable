@@ -77,11 +77,11 @@ Basic example of grid usage:
 
 ##### Grid Output
 
-By default minable outputs grid classes such as '.min-u-1-2' however if you want a more semantic approach you can also extend these classes i.e.
+By default minable outputs grid classes such as `.min-u-1-2` however if you want a more semantic approach you can also extend these classes i.e.
 
     @extend %min-u-1-4;
 
-To reduce the size of your css make sure to disable '$min-class-output' in _settings.scss:
+To reduce the size of your css make sure to disable `$min-class-output` in _settings.scss:
 
     $min-class-output: false;
 
@@ -89,7 +89,7 @@ To reduce the size of your css make sure to disable '$min-class-output' in _sett
 
 The grid is controlled in settings.scss, here you can set variables for breakpoints, site width and gutters.
 
-Setting additonal breakpoints
+Setting additonal breakpoints:
 
     $breakpoints: m $break-m, s $break-s;   /* Additional breakpoints, exports to .pure-u-m-1-4 etc */
 
