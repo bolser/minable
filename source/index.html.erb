@@ -29,7 +29,7 @@ title: Minable - Home
     <h1>What is minable?</h1>
     <p>Minable is a minimal CSS framework written in SCSS. It's based on Yahoo's <a href="http://purecss.io/">Pure CSS</a> and thoughtbot's <a href="http://bourbon.io" target="_blank">Bourbon</a>.</p>
 
-    <p>Minable is very early in development, expect breaking changes in the near future. Documentation and examples coming soon.</p>
+    <p class="text-color-morning"><strong>Minable is very early in development, expect breaking changes in the near future. More documentation and examples coming soon.</strong></p>
 
     <a href="https://github.com/bolser/minable" target="_blank"><button class="btn-github min-button text-centered">View on GitHub</button></a>
   </div>
@@ -88,10 +88,10 @@ title: Minable - Home
     <h3>Adding additional breakpoints</h3>
     <p><strong>Minable</strong> supports additional breakpoints, by default it comes with medium <em>(767px)</em> and small <em>(430px)</em> breakpoints.</p>
 
-    <pre>$break-m: 767px;
-$break-s: 430px;
+    <pre><span class="text-color-darkGreen">$break-m</span>: 767px;
+<span class="text-color-darkGreen">$break-s</span>: 430px;
 
-$breakpoints: m $break-m, s $break-s;</pre>
+$breakpoints: <span class="text-color-morning">m</span> <span class="text-color-darkGreen">$break-m<span>, <span class="text-color-morning">s</span> <span class="text-color-darkGreen">$break-s</span>;</pre>
 
     <p><em>$breakpoints</em> supports multiple, comma separated breakpoints. Each requires a name and size in pixels. The generated classes take the form:</p>
 
