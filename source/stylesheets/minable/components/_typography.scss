@@ -35,6 +35,16 @@ pre {
   padding: 1em 2em;
 }
 
+ul {
+  &.no-bullets {
+    list-style: none;
+    margin-left: 0;
+  }
+  &.horizontal-list li {
+    display: inline;
+  }
+}
+
 .text-centered {
   text-align: center;
 }
