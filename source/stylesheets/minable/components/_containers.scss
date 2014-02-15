@@ -7,8 +7,8 @@ body {
 
 .site-wrapper {
   background-color: $flatBone;
-  border-bottom: 1em solid $lightGreen;
-  padding: 0 10px 2em;
+  border-bottom: 4px solid $morning;
+  padding: 0 #{$site-usable-gutter}px 2em;
 }
 
 .content-home-block {
