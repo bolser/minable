@@ -36,40 +36,42 @@ title: Minable - Home
 </section>
 
 <section class="min-u-1 text-centered content-home-block">
-  <h2>How it works</h2>
+  <div class="min-inner">
+    <h2>How it works</h2>
 
-  <p>The markup for <strong>minable</strong> is simple, here is a typical layout:</p>
+    <p>The markup for <strong>minable</strong> is simple, here is a typical layout:</p>
 
-  <div class="min-g">
-    <div class="min-u-1-2 min-u-m-1">
-    <div class="min-inner">
-        <pre class="text-left">
-&lt;div class="min-container"&gt;
-  &lt;div class="min-g"&gt;
-    &lt;div class="min-u-1-4"&gt;
-      &lt;div class="min-inner"&gt;
-        <strong><span class="text-color-morning">Content</span></strong>
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="min-u-3-4"&gt;
-      &lt;div class="min-inner"&gt;
-        <strong><span class="text-color-morning">Content</span></strong>
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</pre>
-      </div>
-    </div>
-    <div class="min-u-1-2 min-u-m-1">
+    <div class="min-g">
+      <div class="min-u-1-2 min-u-m-1">
       <div class="min-inner">
-        <ul class="text-left list-centered">
-          <li><strong>.min-container</strong> - <em>Optional</em> wrapper which sets the max grid width.</li>
-          <li><strong>.min-g</strong> - Minable row.</li>
-          <li><strong>.min-u-1-4</strong> - Minable unit class, for a full list <a href="#">click here</a>.</li>
-          <li><strong>.min-inner</strong> - The inner unit sets the gutter.</li>
-        </ul>
+          <pre class="text-left">
+  &lt;div class="min-container"&gt;
+    &lt;div class="min-g"&gt;
+      &lt;div class="min-u-1-4"&gt;
+        &lt;div class="min-inner"&gt;
+          <strong><span class="text-color-morning">Content</span></strong>
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="min-u-3-4"&gt;
+        &lt;div class="min-inner"&gt;
+          <strong><span class="text-color-morning">Content</span></strong>
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</pre>
+        </div>
+      </div>
+      <div class="min-u-1-2 min-u-m-1">
+        <div class="min-inner">
+          <ul class="text-left list-centered">
+            <li><strong>.min-container</strong> - <em>Optional</em> wrapper which sets the max grid width.</li>
+            <li><strong>.min-g</strong> - Minable row.</li>
+            <li><strong>.min-u-1-4</strong> - Minable unit class, for a full list <a href="#">click here</a>.</li>
+            <li><strong>.min-inner</strong> - The inner unit sets the gutter.</li>
+          </ul>
 
-        <p class="text-left">While this method requires more markup, it allows compatibility with IE7 out of the box. We are working on an option to disable legacy support to allow for cleaner markup if not required.
+          <p class="text-left">While this method requires more markup, it allows compatibility with IE7 out of the box. We are working on an option to disable legacy support to allow for cleaner markup if not required.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -79,13 +81,23 @@ title: Minable - Home
   <div class="min-inner">
     <h2>Customising your grid</h2>
 
-    <p>The focus of <strong>minable</strong> is to be flexible. To customise your grid open <em>_settings.scss</em>, here you have a variety of options available:</p>
+    <p>The focus of <strong>minable</strong> is to be flexible. To customise your grid open <em>_settings.scss</em>, here you have a variety of options available.</p>
 
-    <h3>Output minable classes</h3>
-    <p>By default <strong>minable</strong> outputs classes such as <em>.min-u-1-2</em> which can be added to your markup. If however you prefer a more semantic aproach you can turn class output off and use <em>@extend</em> instead by setting <strong>$min-class-output</strong> to <strong>false</strong>:</p>
+    <p><em>We will be adding more detailed instructions shortly however for now, go take a look.</em></p>
 
     <h3>Adding additional breakpoints</h3>
-    <p></p>
-    
+    <p><strong>Minable</strong> supports additional breakpoints, by default it comes with medium <em>(767px)</em> and small <em>(430px)</em> breakpoints.</p>
+
+    <pre>$break-m: 767px;
+$break-s: 430px;
+
+$breakpoints: m $break-m, s $break-s;</pre>
+
+    <p><em>$breakpoints</em> supports multiple, comma separated breakpoints. Each requires a name and size in pixels. The generated classes take the form:</p>
+
+    <pre>.min-u-<em><span class="text-color-morning">name</span></em>-1-4</pre>
+
+    <p>Assigning <em>$breakpoints: false;</em> will disable addition breakpoint classes.</p>
+
   </div>
 </section>
