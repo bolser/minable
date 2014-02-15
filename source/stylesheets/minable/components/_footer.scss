@@ -1,1 +1,12 @@
 // Footer styling
+
+.site-footer {
+  background-color: $darkGreen;
+  color: $flatBone;
+  padding: 1em 10px 2em;
+
+  h2,h3 {
+
+  text-shadow: 3px 3px 0 darken($darkGreen, 10);
+  }
+}
