@@ -11,5 +11,13 @@
     background-color: lighten($morning, 10);
     margin: 5px;
     min-height: 90px;
+
+    @media (max-width: $break-m) {
+      min-height: 40px;
+    }
+
+    @media (max-width: $break-s) {
+      min-height: 25px;
+    }
   }
 }
