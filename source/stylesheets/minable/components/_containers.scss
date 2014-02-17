@@ -2,7 +2,7 @@
 
 body {
   background: $morning image-url("bg-texture-light.png");
-  padding: 10px;
+  padding: #{$site-usable-gutter}px;
 }
 
 .site-wrapper {
