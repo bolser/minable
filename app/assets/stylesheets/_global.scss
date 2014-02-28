@@ -5,4 +5,24 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
- }
+}
+
+// prevent images overflowing containers
+img {
+  max-width: 100%;
+}
+
+// SVG fallback if using modernizr, use following markup:
+
+// <div class="logo-header svg-container">
+//   <img src="logo.svg" class="svg-main">
+//   <img src="logo.png" class="svg-fallback">
+// </div>
+
+html.svg .svg-fallback {
+  display: none;
+}
+
+html.no-svg .svg-main {
+  display: none;
+}

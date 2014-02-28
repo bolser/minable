@@ -1,7 +1,8 @@
 // Minable Grid Core
+//=====================================
 
-/* =================== Basic usage ===================
-
+//=================== Basic usage ===================
+/*
 <div class="min-container">     Sets outer max-width container (auto centered, optional)
   <div class="min-g">           Sets responive row container, negative margin to counters outer margin
     <div class="min-u-1-4">     Sets 1/4 width element
@@ -43,9 +44,16 @@ $min-class-output: true !default;
 
   font-size: 0;
 
-  // Gutter offset to prevent outermost gutter
-  margin-right: -#{$site-usable-gutter}px;
-  margin-left: -#{$site-usable-gutter}px;
+  @if $min-remove-outer-gutter {
+    margin-right: -#{$site-usable-gutter}px;
+    margin-left: -#{$site-usable-gutter}px;
+  }
+
+  // Gutter offset to prevent outermost gutter on any inner elements
+  .min-g {
+    margin-right: -#{$site-usable-gutter}px;
+    margin-left: -#{$site-usable-gutter}px;
+  }
 }
 
 // We want this to apply to our custom grids as well.
