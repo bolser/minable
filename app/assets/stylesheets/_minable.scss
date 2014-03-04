@@ -1,14 +1,12 @@
 /*!
 ==================================================================
 
-Author:       Joe Dinsdale (Bolser)
-Author        URI: http://www.joedinsdale.co.uk/
-Description:  Website design for Bolser Agency
+MINABLE CSS FRAMEWORK
+
+URL:          https://github.com/bolser/minable
 
 ==================================================================
 */
-
-// STYLES FOR PUBLISHED VERSION OF SITE. COMPILES TO style.css
 
 // Import Framework settings
 @import "settings";
@@ -20,17 +18,7 @@ Description:  Website design for Bolser Agency
 @import "framework/all";
 
 // Import Global styles
-@import "global.scss";
-
-// Import Components
-@import "components/all";
-
-// Import Modules
-@import "modules/all";
-
-// Import Site Templates
-@import "templates/all";
-
+@import "global";
 
 // For temp "dirty" fixes...
 @import "shame";
