@@ -1,18 +1,16 @@
 // Include typography styling, extend framework/typecsset.scss where possible!
 
 body {
-  color: $darkGrey;
+  color: $white;
   font-family: $openSans;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: $openSansCondensed;
-  text-shadow: 3px 3px 0 $lightGreen;
+  text-shadow: 2px 2px 0 darken($black, 20);
 }
 
 h3,h4,h5,h6 {
-  color: $darkGreen;
-  text-shadow: 2px 2px 0 darken($darkGreen, 10);
 }
 
 p {
@@ -20,16 +18,16 @@ p {
 }
 
 a {
-  color: $morning;
+  color: $lightGreen;
   text-decoration: none;
 
   &:hover {
-    color: darken($morning, 10);
+    color: $darkGrey;
   }
 }
 
 pre {
-  background-color: #FEFEFE;
+  background-color: $black;
   font-size: 0.9em;
   margin: 0 0 1em;
   padding: 1em 2em;
@@ -53,17 +51,15 @@ ul {
   text-align: left;
 }
 
-
-.text-color-morning {
-  color: $morning;
+.text-color-lightGreen {
+  color: $lightGreen;
 }
 
-.text-color-darkGreen {
-  color: $darkGreen;
+.text-color-black {
+  color: $black;
 }
 
 .min-button {
-  background-color: $darkGreen;
-  color: $flatBone;
+  color: $white;
   font-size: 1.4em;
 }

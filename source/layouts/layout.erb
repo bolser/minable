@@ -15,18 +15,26 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <div class="site-wrapper min-container">
-      <div class="min-g">
-        <%= yield %>
-      </div>
-    </div>
-    <footer class="min-container site-footer">
-      <div class="min-g">
-        <div class="min-u-1">
+    <div class="site-wrapper">
+      <div class="min-container">
+        <header class="min-u-1 centered masthead">
           <div class="min-inner">
-            <h2>Contributors</h2>
+            <%= image_tag("min-logo-800w.png", :class => "main-logo", :alt =>"Minable logo")%>
+            <p class="tagline">Minimal &amp; Flexible<br> Sass powered framework</p>
+          </div>
+        </header>
+      </div>
+      <%= yield %>
+    </div>
+    <footer class="site-footer">
+      <div class="min-container">
+        <div class="min-g">
+          <div class="min-u-1">
+            <div class="min-inner">
+              <h2>Contributors</h2>
 
-            <p>Coming soon...</p>
+              <p>Coming soon...</p>
+            </div>
           </div>
         </div>
       </div>

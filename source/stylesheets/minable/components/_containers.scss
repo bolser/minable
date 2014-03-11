@@ -1,16 +1,32 @@
 // Containers styling to be used for page body content etc
 
 body {
-  background: $morning image-url("bg-texture-light.png");
-  padding: #{$site-usable-gutter}px;
+  background: $black image-url("bg-texture-light.png");
+  border: #{$site-usable-gutter}px solid $white;
 }
 
 .site-wrapper {
-  background-color: $flatBone;
-  border-bottom: 4px solid $morning;
+  background-color: $darkGrey;
+  border-bottom: 4px solid $black;
   padding: 0 #{$site-usable-gutter}px 2em;
 }
 
 .content-home-block {
   padding-top: 2em;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-darkGrey {
+  background-color: $darkGrey;
+}
+
+.bg-lightGreen {
+  background-color: $lightGreen;
 }
