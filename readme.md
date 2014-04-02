@@ -100,4 +100,4 @@ Setting additonal breakpoints:
 License
 -------
 
-Minable is Copyright © 2014 Joe Dinsdale. Bourbon is Copyright © 2011-2013 thoughtbot. Pure CSS is copyright 2014 Yahoo! Inc.
+Minable is Copyright © 2014 Bolser. Bourbon is Copyright © 2011-2013 thoughtbot. Pure CSS is copyright 2014 Yahoo! Inc.
