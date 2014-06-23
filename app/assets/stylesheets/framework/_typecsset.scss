@@ -40,9 +40,6 @@ $typecsset-magic-number:        $typecsset-base-line-height;
 $typecsset-magic-ratio:         $typecsset-base-line-height / $typecsset-base-font-size;
 
 
-
-
-
 //------------------------------------\\
   // TOOLS
 //------------------------------------\\
@@ -84,9 +81,6 @@ $typecsset-magic-ratio:         $typecsset-base-line-height / $typecsset-base-fo
 }
 
 
-
-
-
 /*------------------------------------*\
   #SHARED
 \*------------------------------------*/
@@ -104,9 +98,6 @@ $typecsset-magic-ratio:         $typecsset-base-line-height / $typecsset-base-fo
   margin-bottom: $typecsset-magic-number;
   margin-bottom: $typecsset-magic-ratio + rem;
 }
-
-
-
 
 
 /*------------------------------------*\
@@ -144,9 +135,6 @@ body {
 }
 
 
-
-
-
 /*------------------------------------*\
   #HEADINGS
 \*------------------------------------*/
@@ -181,9 +169,6 @@ h6 {
 }
 
 
-
-
-
 /*------------------------------------*\
   #LISTS
 \*------------------------------------*/
@@ -196,9 +181,6 @@ li > ul,
 li > ol {
   margin-bottom: 0;
 }
-
-
-
 
 
 /*------------------------------------*\
@@ -227,9 +209,6 @@ address {
 }
 
 
-
-
-
 /*------------------------------------*\
   #CODE
 \*------------------------------------*/
@@ -247,9 +226,6 @@ pre,
 samp {
   font-family: monospace, monospace; /* [1] */
 }
-
-
-
 
 
 /*------------------------------------*\
@@ -316,9 +292,6 @@ q   {
   }
 
 }
-
-
-
 
 
 /*------------------------------------*\

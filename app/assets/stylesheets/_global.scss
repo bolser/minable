@@ -1,23 +1,26 @@
 // Global Styling (Stuff that doesnt really belong anywhere else!)
 
-// apply a natural box layout model to all elements
-*, *:before, *:after {
+@if $min-ie7-support {
+  // apply a natural box layout model to all elements
+  *, *:before, *:after {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+}
+
+@if $min-ie7-support == false {
+  *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+  }
 }
 
-// prevent images overflowing containers
 img {
+  height: auto;
   max-width: 100%;
 }
-
-// SVG fallback if using modernizr, use following markup:
-
-// <div class="logo-header svg-container">
-//   <img src="logo.svg" class="svg-main">
-//   <img src="logo.png" class="svg-fallback">
-// </div>
 
 html.svg .svg-fallback {
   display: none;

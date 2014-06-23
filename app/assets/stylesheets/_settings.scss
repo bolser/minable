@@ -1,36 +1,51 @@
-// Styling declarations
-//=====================================
+/*------------------------------------*\
+  Styling declarations
+\*------------------------------------*/
 
 // Colours
+$white: #FFF;
+$lightGrey: #EEE;
+$midGrey: #999;
+$darkGrey: #262525;
+$orange: #F38630;
 
 // Fonts
+$openSansCondensed: 'Open Sans Condensed', sans-serif;
+$openSans: 'Open Sans', sans-serif;
 
 
-// Grid Setup
-//=====================================
-
-// Max site width (Max width of .min-container elements)
-$site-width: 980px !default;
-
-// Define the gutter between columns in px
-$site-gutter: 30px !default;
-
-// Turn of outer most minable row gutter
-$min-remove-outer-gutter: false !default;
-
-
-// Grid Breakpoints
-//=====================================
+/*------------------------------------*\
+  Grid Setup
+\*------------------------------------*/
 
 // Enable min class output (.min-u-1-3)
-$min-class-output: false !default;
+$min-class-output: false;
 
-// Breakpoints (used by grid to calculate additional breakpoints)
-$break-m: 767px !default;
-$break-s: 450px !default;
+// Enables content box mode, to get around gutter/padding issues add a .min-inner div within the min unit (.min-u-1-2). See example below.
+$min-ie7-support: true;
+/*
+<div class="min-g">
+  <div class="min-u-1-2">
+    <div class="min-inner"> <!-- Only needed for IE7 support -->
+    </div>
+  </div>
+</div>
+*/
+
 
 // Used to calculate rem values etc
-$browser-default-font-size: 16px !default;
+$browser-default-font-size: 16px;
 
-// Additional breakpoints, exports to .pure-u-m-1-4 etc
-$breakpoints: m $break-m, s $break-s !default;
+// Breakpoints (used by grid to calculate additional breakpoints)
+$break-l: 740px;
+$break-m: 500px;
+$break-s: 430px;
+
+$breakpoints: m $break-m, s $break-s;   // Additional breakpoints, exports to .pure-u-m-1-4 etc
+
+// Form Breakpoint
+$form-break: $break-m;
+
+// Grid control
+$site-width: 960px;    // Max site width (Max width of .min-container elements)
+$site-gutter: 20px;     // Define the gutter between columns in px

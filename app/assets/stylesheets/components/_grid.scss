@@ -1,0 +1,32 @@
+// Full width
+
+.min-u-1 {
+  @extend %min-u-1;
+}
+.min-u-1-2 {
+  @extend %min-u-1-2;
+}
+.min-u-1-3 {
+  @extend %min-u-1-2;
+}
+.min-u-2-3 {
+  @extend %min-u-1-2;
+}
+.min-u-1-4 {
+  @extend %min-u-1-4;
+}
+.min-u-3-4 {
+  @extend %min-u-3-4;
+}
+
+// Medium breakpoint
+
+.min-u-m-1 {
+  @extend %min-u-m-1;
+}
+
+// Small breakpoint
+
+.min-u-s-1 {
+  @extend %min-u-s-1;
+}

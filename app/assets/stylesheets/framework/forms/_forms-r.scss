@@ -1,4 +1,4 @@
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: $form-break) {
   .min-form button[type="submit"] {
       margin: 0.7em 0 0;
   }
@@ -19,8 +19,8 @@
   .min-form input[type="tel"],
   .min-form input[type="color"],
   .min-form label {
-    margin-bottom: 0.3em;
-    display: block;
+      margin-bottom: 0.3em;
+      display: block;
   }
 
   .min-group input:not([type]),
@@ -38,27 +38,27 @@
   .min-group input[type="search"],
   .min-group input[type="tel"],
   .min-group input[type="color"] {
-    margin-bottom: 0;
+      margin-bottom: 0;
   }
 
   .min-form-aligned .min-control-group label {
-    margin-bottom: 0.3em;
-    text-align: left;
-    display: block;
-    width: 100%;
+      margin-bottom: 0.3em;
+      text-align: left;
+      display: block;
+      width: 100%;
   }
 
   .min-form-aligned .min-controls {
-    margin: 1.5em 0 0 0;
+      margin: 1.5em 0 0 0;
   }
 
   /* NOTE: min-help-inline is deprecated. Use .min-form-message-inline instead. */
   .min-form .min-help-inline,
   .min-form-message-inline,
   .min-form-message {
-    display: block;
-    font-size: 80%;
-    /* Increased bottom padding to make it group with its related input element. */
-    padding: 0.2em 0 0.8em;
+      display: block;
+      font-size: 0.75em;
+      /* Increased bottom padding to make it group with its related input element. */
+      padding: 0.2em 0 0.8em;
   }
 }
