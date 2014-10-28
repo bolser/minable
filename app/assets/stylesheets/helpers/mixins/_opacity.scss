@@ -3,5 +3,4 @@
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie); //IE8
 }
-
 // Usage: @include opacity(0.8);

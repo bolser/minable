@@ -21,15 +21,15 @@
 
 // Requried variables - leaves these be.
 $breakpoints: false !default; // Required for the grid extender
-$site-usable-gutter: strip-unit($site-gutter) / 2; // Cuts the defined gutter in half for use as padding
+$site-usable-gutter: strip-unit($min-site-gutter) / 2; // Cuts the defined gutter in half for use as padding
 
 // Set these options in settings.scss!
 $min-class-output: true !default;
 $min-ie7-support: true !default;
 
-// This element would wrap any outer most elements to restrict them to the $site-width, setting this on the .min-g causes issues prevents the gutter offset from taking effect.
+// This element would wrap any outer most elements to restrict them to the $min-site-width, setting this on the .min-g causes issues prevents the gutter offset from taking effect.
 .min-container {
-  max-width: $site-width;
+  max-width: $min-site-width;
   margin-left: auto;
   margin-right: auto;
 }
