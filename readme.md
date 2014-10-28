@@ -43,7 +43,7 @@ Add minable to the gemfile:
 
 If you're planning on overwriting the default settings, create a `_settings.scss` file first. Make sure to include it before `minable/all`.
 
-    @import "_settings";
+    @import "settings";
     @import "minable/all";
 
 
