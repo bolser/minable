@@ -1,44 +1,15 @@
 /*------------------------------------*\
-  Styling declarations
-\*------------------------------------*/
-
-// Colours
-$base-white: #FFF;
-$base-black: #000;
-
-// Fonts
-
-
-/*------------------------------------*\
   Grid Setup
 \*------------------------------------*/
 
-// Enable min class output (.min-u-1-3)
-$min-class-output: false;
+$min-output-classes: false !default;
+$min-support-ie7: false !default;
 
-/* If disabled make sure you extend required grid units such as:
+$min-browser-default-font-size: 16px !default;
 
-  .min-u-1-2 {
-    @extend %min-u-1-2;
-  }
+$min-breakpoints: false !default;
 
-*/
+$min-site-width: 960px !default;
 
-// Enables content box mode, to get around gutter/padding issues add a .min-inner div within the min unit (.min-u-1-2). See example below.
-$min-ie7-support: true;
-
-// Used to calculate rem values etc
-$browser-default-font-size: 16px;
-
-// Breakpoints (used by grid to calculate additional breakpoints)
-$min-break-m: 640px;
-$min-break-s: 320px;
-
-$breakpoints: m $min-break-m, s $min-break-s;   // Additional breakpoints, exports to .pure-u-m-1-4 etc
-
-// Grid control
-$min-site-width: 960px;    // Max site width (Max width of .min-container elements)
-$min-site-gutter: 20px;     // Define the gutter between columns in px
-
-// Include gutter on outermost grid
-$min-gutter-outer: true;
+$min-site-gutter: 20px !default;
+$min-outer-gutter-enable: true !default;
