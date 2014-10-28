@@ -1,8 +1,6 @@
-[![Gem Version](https://badge.fury.io/rb/minable.png)](http://badge.fury.io/rb/minable)
-
-========
-
 # Minable
+=========
+[![Gem Version](https://badge.fury.io/rb/minable.png)](http://badge.fury.io/rb/minable)
 
 Minable is a light-weight responsive framework powered by Sass.
 
