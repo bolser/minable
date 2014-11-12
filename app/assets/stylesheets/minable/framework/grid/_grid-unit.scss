@@ -1,6 +1,4 @@
-// Minable Grid Units
-
-@if $min-output-classes {
+@if $min-grid-output-classes {
   .min-u-1 {
     width: 100%;
   }
@@ -100,16 +98,12 @@
     *width: 91.6357%;
   }
 
-  // GRID EXTENDER
-  // Loop through each defined breakpoint to generate our grids (Set in settings.scss).
-  @if $min-breakpoints {
-    @each $min-breakpoint in $min-breakpoints {
 
-      // Get the breakpoint details.
+  @if $min-grid-breakpoints {
+    @each $min-breakpoint in $min-grid-breakpoints {
       $min-breakpoint-name: nth($min-breakpoint,1);
       $min-breakpoint-value: strip-unit(nth($min-breakpoint,2)) / strip-unit($min-browser-default-font-size);
 
-      // Define your grid.
       @media (max-width: #{$min-breakpoint-value}em) {
         .min-u-#{$min-breakpoint-name}-1 {
           width: 100%;
@@ -194,6 +188,7 @@
     };
   }
 }
+
 
 %min-u-1 {
   width: 100%;
@@ -294,16 +289,12 @@
   *width: 91.6357%;
 }
 
-// GRID EXTENDER
-// Loop through each defined breakpoint to generate our grids (Set in settings.scss).
-@if $min-breakpoints {
-  @each $min-breakpoint in $min-breakpoints {
 
-    // Get the breakpoint details.
+@if $min-grid-breakpoints {
+  @each $min-breakpoint in $min-grid-breakpoints {
     $min-breakpoint-name: nth($min-breakpoint,1);
     $min-breakpoint-value: strip-unit(nth($min-breakpoint,2)) / strip-unit($min-browser-default-font-size);
 
-    // Define your grid.
     @media (max-width: #{$min-breakpoint-value}em) {
       %min-u-#{$min-breakpoint-name}-1 {
         width: 100%;

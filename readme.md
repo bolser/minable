@@ -5,8 +5,6 @@ Minable is a light-weight responsive framework powered by Sass.
 
 Currently Minable is a work in progress and therefore is likely to evolve over time as will this documentation.
 
-**Demo coming soon**
-
 ## Requirements
 Sass 3.2+
 
@@ -14,7 +12,7 @@ Sass 3.2+
 Minable includes a way to generate a directory with all the necessary files.
 For command line help: `$ minable help`
 
-# Install for Rails 3.1+
+## Install for Rails 3.1+
 In your Gemfile:
 
     gem 'minable'
@@ -31,23 +29,11 @@ Delete the sprocket directive in application.css.scss.
 
     *= require_tree .
 
-Import Minable at the beginning of application.css.scss. All additional stylesheets must be imported below Minable:
-
-    @import "minable/all";
-
-
-### Using Minable
-Add minable to the gemfile:
-
-    gem minable
-
 If you're planning on overwriting the default settings, create a `_settings.scss` file first. Make sure to include it before `minable/all`.
 
     @import "settings";
     @import "minable/all";
 
 
+## Quick Start
 
-# Examples
-
-**Coming Soon**

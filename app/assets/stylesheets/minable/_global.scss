@@ -1,7 +1,4 @@
-// Global Styling (Stuff that doesnt really belong anywhere else!)
-
-@if $min-support-ie7 {
-  // apply a natural box layout model to all elements
+@if $min-grid-ie7-support-enable {
   *, *:before, *:after {
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
@@ -9,7 +6,7 @@
   }
 }
 
-@if $min-support-ie7 == false {
+@if $min-grid-ie7-support-enable == false {
   *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
