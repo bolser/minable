@@ -28,12 +28,12 @@ $min-grid-ie7-support-enable: true !default;
   font-size: 0;
 
 
-  @if $min-grid-gutter-outer-enable == true {
+  @if $min-grid-gutter-outer-enable == false {
     margin-right: -#{$min-grid-usable-gutter}px;
     margin-left: -#{$min-grid-usable-gutter}px;
   }
 
-  @if $min-grid-gutter-outer-enable == false {
+  @if $min-grid-gutter-outer-enable == true {
     .min-g {
       margin-right: -#{$min-grid-usable-gutter}px;
       margin-left: -#{$min-grid-usable-gutter}px;
@@ -49,10 +49,8 @@ $min-grid-ie7-support-enable: true !default;
   zoom: 1;
 
   @if $min-grid-ie7-support-enable == false {
-    .min-inner {
-      padding-right: #{$min-grid-usable-gutter}px;
-      padding-left: #{$min-grid-usable-gutter}px;
-    }
+    padding-right: #{$min-grid-usable-gutter}px;
+    padding-left: #{$min-grid-usable-gutter}px;
   }
 }
 
