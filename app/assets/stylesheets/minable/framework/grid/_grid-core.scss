@@ -12,7 +12,7 @@ $min-grid-ie7-support-enable: true !default;
   margin-right: auto;
 }
 
-@if $min-wrapper-wide-width == true {
+@if $min-wrapper-wide-width {
   .min-wrapper-wide {
     max-width: $min-wrapper-wide-width;
     margin-left: auto;
