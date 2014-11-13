@@ -1,0 +1,28 @@
+.min-form.stacked {
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="week"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"],
+  select,
+  textarea {
+    display: block;
+    margin: .5em 0;
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    margin: .5em 0;
+    padding-left: .5em;
+  }
+}

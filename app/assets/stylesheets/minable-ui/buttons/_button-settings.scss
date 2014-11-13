@@ -1,0 +1,33 @@
+// colours
+
+$min-b-bg-colour-primary: #4BB5C1 !default;
+$min-b-text-colour-primary: #FFF !default;
+
+$min-b-text-colour-dark: #111 !default;
+
+$min-b-bg-colour-hollow: transparent !default;
+$min-b-bg-colour-hollow-hover: #FFF !default;
+$min-b-bg-colour-success: #A7DF6F !default;
+$min-b-bg-colour-success-hover: darken(#A7DF6F, 10%) !default;
+$min-b-bg-colour-warning: #FBC147 !default;
+$min-b-bg-colour-warning-hover: darken(#FBC147, 10%) !default;
+$min-b-bg-colour-error: #DB634F !default;
+$min-b-bg-colour-error-hover: darken(#DB634F, 10%) !default;
+$min-b-bg-colour-info: #D8D8D8 !default;
+$min-b-bg-colour-info-hover: darken(#D8D8D8, 10%) !default;
+
+
+$min-b-default-border: none !default;
+$min-b-default-box-shadow: none;
+$min-b-default-padding: .75em 1.25em !default;
+$min-b-default-radius: .25em !default;
+$min-b-default-transition: .3s !default;
+
+$min-b-rounded-radius: 2em !default;
+
+$min-b-hollow-border: 1px solid $min-b-bg-colour-primary !default;
+$min-b-hollow-border-hover: 1px solid #FFF !default;
+$min-b-hollow-text-color: $min-b-bg-colour-primary !default;
+$min-b-hollow-text-color-hover: $min-b-bg-colour-primary !default;
+
+$min-f-default-padding: .75em 1.25em !default;

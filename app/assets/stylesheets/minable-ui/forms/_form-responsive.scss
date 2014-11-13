@@ -1,0 +1,28 @@
+@if $min-f-breakpoint-enable == true {
+  $min-f-break-value: strip-unit($min-f-breakpoint-width) / strip-unit($min-browser-default-font-size);
+
+  @media(max-width: #{$min-f-break-value}em) {
+    .min-form {
+      input[type="text"],
+      input[type="password"],
+      input[type="email"],
+      input[type="url"],
+      input[type="date"],
+      input[type="month"],
+      input[type="time"],
+      input[type="datetime"],
+      input[type="datetime-local"],
+      input[type="week"],
+      input[type="number"],
+      input[type="search"],
+      input[type="tel"],
+      input[type="color"],
+      select,
+      textarea,
+      label {
+        margin: .5em 0;
+        width: 100%;
+      }
+    }
+  }
+}

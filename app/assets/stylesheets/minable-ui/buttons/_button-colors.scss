@@ -1,0 +1,49 @@
+.min-button {
+  &.dark-text {
+    color: $min-b-text-colour-dark;
+  }
+
+  &.success {
+    background-color: $min-b-bg-colour-success;
+
+    &:hover {
+      background-color: $min-b-bg-colour-success-hover;
+    }
+  }
+
+  &.warning {
+    background-color: $min-b-bg-colour-warning;
+
+    &:hover {
+      background-color: $min-b-bg-colour-warning-hover;
+    }
+  }
+
+  &.error {
+    background-color: $min-b-bg-colour-error;
+
+    &:hover {
+      background-color: $min-b-bg-colour-error-hover;
+    }
+  }
+
+  &.info {
+    background-color: $min-b-bg-colour-info;
+
+    &:hover {
+      background-color: $min-b-bg-colour-info-hover;
+    }
+  }
+
+  &.hollow {
+    background-color: $min-b-bg-colour-hollow;
+    border: $min-b-hollow-border;
+    color: $min-b-hollow-text-color;
+
+    &:hover {
+      background-color: $min-b-bg-colour-hollow-hover;
+      border: $min-b-hollow-border-hover;
+      color: $min-b-hollow-text-color-hover;
+    }
+  }
+}

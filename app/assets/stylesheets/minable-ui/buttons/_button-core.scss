@@ -1,0 +1,31 @@
+.min-button {
+  background-color: $min-b-bg-colour-primary;
+  border: 0;
+  border-radius: $min-b-default-radius;
+  box-shadow: $min-b-default-box-shadow;
+  color: $min-b-text-colour-primary;
+  font-size: 1em;
+  padding: $min-b-default-padding;
+  text-align: center;
+  transition: $min-b-default-transition;
+
+  &:hover {
+    background-color: darken($min-b-bg-colour-primary, 10%);
+  }
+
+  &.small {
+    font-size: .875em;
+  }
+
+  &.large {
+    font-size: 1.125em;
+  }
+
+  &.xlarge {
+    font-size: 1.5em;
+  }
+
+  &.rounded {
+    border-radius: $min-b-rounded-radius;
+  }
+}

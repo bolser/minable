@@ -1,0 +1,46 @@
+.min-form {
+  border: none;
+
+  fieldset {
+    border: $min-f-fieldset-border;
+    margin-bottom: .5em;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="week"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"],
+  select,
+  textarea {
+    border: $min-f-default-border;
+    border-radius: $min-f-default-radius;
+    box-shadow: $min-f-default-box-shadow;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: $min-f-text-colour;
+    display: inline-block;
+    margin: .5em .5em .5em 0;
+    padding: $min-f-default-input-padding;
+  }
+
+  label {
+    color: $min-f-label-colour;
+    display: inline-block;
+    margin-right: .5em;
+
+    input[type="checkbox"] {
+      margin-right: .5em;
+    }
+  }
+}
