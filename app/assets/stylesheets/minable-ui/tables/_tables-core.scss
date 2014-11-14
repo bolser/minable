@@ -1,0 +1,16 @@
+.min-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: $min-t-border-default-outer;
+  empty-cells: show;
+  text-align: $min-t-text-align;
+
+  thead {
+    background-color: $min-t-bg-default-head;
+    border-bottom: $min-t-border-default-head;
+  }
+
+  tbody {
+    background-color: $min-t-bg-default-body;
+  }
+}

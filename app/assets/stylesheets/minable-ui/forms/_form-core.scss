@@ -1,8 +1,10 @@
 .min-form {
   border: none;
+  border-radius: $min-f-default-wrapper-border-radius;
 
   fieldset {
     border: $min-f-fieldset-border;
+    border-radius: $min-f-default-wrapper-border-radius;
     margin-bottom: .5em;
   }
 
@@ -31,7 +33,13 @@
     color: $min-f-text-colour;
     display: inline-block;
     margin: .5em .5em .5em 0;
+    outline: none;
     padding: $min-f-default-input-padding;
+
+    &:active,
+    &:focus {
+      border: $min-f-default-border-active;
+    }
   }
 
   label {

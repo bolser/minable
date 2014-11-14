@@ -9,10 +9,14 @@ $min-f-text-colour-dark: #111 !default;
 $min-f-breakpoint-enable: true !default;
 $min-f-breakpoint-width: 800px !default;
 
+$min-f-default-wrapper-border-radius: .5em !default;
+
 $min-f-default-border: 1px solid #CCC !default;
-$min-f-default-box-shadow: inset 1px 1px 3px rgba(#999, 0.3);
+$min-f-default-box-shadow: inset 1px 1px 3px rgba(#999, 0.3) !default;
 $min-f-default-input-padding: .75em 1.25em !default;
 $min-f-default-radius: .5em !default;
+
+$min-f-default-border-active: 1px solid #4BB5C1 !default;
 
 
 $min-f-fieldset-border: 1px solid #D8D8D8 !default;
