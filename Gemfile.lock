@@ -1,12 +1,12 @@
 PATH
   remote: .
   specs:
-    minable (0.1.0)
+    minable (0.1.1)
       sass (~> 3.2.14)
       thor
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     aruba (0.5.4)
       childprocess (>= 0.3.6)

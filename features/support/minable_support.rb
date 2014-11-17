@@ -3,15 +3,15 @@ module MinableSupport
     if path
       run_simple("bundle exec minable install --path '#{path}'")
     else
-      run_simple("bundle exec minable install")
+      run_simple('bundle exec minable install')
     end
   end
 
   def minable_path(prefix, path)
     if prefix
-      File.join(prefix, 'minable', path)
+      File.join(prefix, path)
     else
-      File.join('minable', path)
+      path
     end
   end
 end
