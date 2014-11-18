@@ -13,7 +13,7 @@ module Minable
         puts 'Minable files already installed, doing nothing.'
       else
         install_files
-        puts 'Minable files installed to #{install_path}/'
+        puts "Minable files installed to #{install_path}/"
       end
     end
 
@@ -31,7 +31,7 @@ module Minable
 
     desc 'version', 'Show Minable version'
     def version
-      say 'Minable #{Minable::VERSION}'
+      say "Minable #{Minable::VERSION}"
     end
 
     private
@@ -42,9 +42,9 @@ module Minable
 
     def install_path
       @install_path ||= if options[:path]
-          Pathname.new(File.join(options[:path], '.'))
+          Pathname.new(File.join(options[:path], 'minable'))
         else
-          Pathname.new('.')
+          Pathname.new('minable')
         end
     end
 
@@ -66,11 +66,11 @@ module Minable
     end
 
     def all_stylesheets
-      Dir['#{stylesheets_directory}/*']
+      Dir["#{stylesheets_directory}/*"]
     end
 
     def stylesheets_directory
-      File.join(top_level_directory, 'app', 'assets', 'stylesheets')
+      File.join(top_level_directory, 'app', 'assets', 'stylesheets', 'minable')
     end
 
     def top_level_directory
