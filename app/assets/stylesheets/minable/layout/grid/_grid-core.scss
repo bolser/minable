@@ -54,11 +54,9 @@ $min-grid-ie7-support-enable: true !default;
   }
 }
 
-@if $min-grid-ie7-support-enable {
-  .min-inner {
-    padding-right: #{$min-grid-usable-gutter}px;
-    padding-left: #{$min-grid-usable-gutter}px;
-  }
+.min-inner {
+  padding-right: #{$min-grid-usable-gutter}px;
+  padding-left: #{$min-grid-usable-gutter}px;
 }
 
 .centered {
