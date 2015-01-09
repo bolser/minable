@@ -39,6 +39,10 @@ $min-grid-ie7-support-enable: true !default;
       margin-left: -#{$min-grid-usable-gutter}px;
     }
   }
+
+  &.min-no-gutter {
+    margin: 0;
+  }
 }
 
 [class *= "min-u"] {
@@ -57,6 +61,10 @@ $min-grid-ie7-support-enable: true !default;
 .min-inner {
   padding-right: #{$min-grid-usable-gutter}px;
   padding-left: #{$min-grid-usable-gutter}px;
+
+  .min-no-gutter > & {
+    padding: 0;
+  }
 }
 
 .centered {
