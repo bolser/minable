@@ -56,15 +56,15 @@ $min-grid-ie7-support-enable: true !default;
     padding-right: #{$min-grid-usable-gutter}px;
     padding-left: #{$min-grid-usable-gutter}px;
   }
+
+  .min-no-gutter > & {
+    padding: 0;
+  }
 }
 
 .min-inner {
   padding-right: #{$min-grid-usable-gutter}px;
   padding-left: #{$min-grid-usable-gutter}px;
-
-  .min-no-gutter > & {
-    padding: 0;
-  }
 }
 
 .centered {
