@@ -1,8 +1,2 @@
-*swp
-*gem
-.sass-cache/
-/minable/
-demo/
-tmp/
-tags
-.bundle/*
+.sass-cache
+*.css.map
