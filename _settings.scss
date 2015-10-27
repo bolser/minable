@@ -1,0 +1,24 @@
+//==========================
+// Minable Grid Settings
+//==========================
+
+$min-base-font-size: 16px !default;
+
+$min-gutter-outer: true !default;
+$min-gutter: 32px;
+$min-gutter-small: 16px;
+
+// Wrapper
+$min-wrapper-width: 75em !default;
+$min-wrapper-wide-width: 90em !default;
+
+
+// Grid Unit Config
+$break-l: 920px !default;
+
+$break-m: 767px !default;
+
+$break-s: 420px !default;
+
+
+$min-breakpoint-generators: false !default; // example: l $break-l, ml $break-ml, m $break-m, s $break-s;

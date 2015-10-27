@@ -1,0 +1,42 @@
+.min__g {
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap;
+  font-size: 0;
+
+  @if $min-gutter-outer {
+    .min__g {
+      margin-left: -$min-usable-gutter * 1px;
+      margin-right: -$min-usable-gutter * 1px;
+    }
+  }
+
+  @else {
+    margin-left: -$min-usable-gutter * 1px;
+    margin-right: -$min-usable-gutter * 1px;
+  }
+
+
+  @if $min-gutter-small {
+    &--gutter-small {
+      margin-left: -$min-usable-gutter-small * 1px;
+      margin-right: -$min-usable-gutter-small * 1px;
+
+      > [class *= "min__u"] {
+        padding-left: $min-usable-gutter-small * 1px;
+        padding-right: $min-usable-gutter-small * 1px;
+      }
+    }
+  }
+
+  &--gutter-none {
+    margin-left: 0;
+    margin-right: 0;
+
+    > [class *= "min__u"] {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

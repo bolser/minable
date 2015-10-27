@@ -1,0 +1,10 @@
+.min__w {
+  margin: 0 auto;
+  max-width: $min-wrapper-width;
+
+  @if $min-wrapper-wide-width {
+    &--wide {
+      max-width: $min-wrapper-wide-width;
+    }
+  }
+}
