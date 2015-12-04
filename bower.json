@@ -1,0 +1,22 @@
+{
+  "name": "minable",
+  "homepage": "https://github.com/bolser/minable",
+  "authors": [
+    "Joe Dinsdale <joe@bolser.co.uk>"
+  ],
+  "description": "Minable is a minimal CSS framework written in SCSS",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "SCSS"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
