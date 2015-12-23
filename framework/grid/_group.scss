@@ -6,6 +6,14 @@
   font-size: 0;
 }
 
+// Fix for Firefox
+@supports(flex-flow: row wrap)  {
+  [class*="min__g"] {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
 .min__g {
   @if $min-gutter-outer {
     .min__g {
