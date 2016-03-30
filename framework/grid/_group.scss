@@ -50,3 +50,11 @@
     }
   }
 }
+
+.min__order-invert {
+  direction: rtl;
+
+  > [class*="min__u"] {
+    direction: ltr;
+  }
+}
