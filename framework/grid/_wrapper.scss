@@ -1,5 +1,8 @@
-.min__w {
+[class*="min__w"] {
   margin: 0 auto;
+}
+
+.min__w {
   max-width: $min-wrapper-width;
 
   @if $min-wrapper-wide-width {
