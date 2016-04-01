@@ -1,0 +1,19 @@
+{
+  "name": "minable",
+  "version": "2.0.5",
+  "description": "Minable is a minimal CSS framework written in SCSS",
+  "main": "minable.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolser/minable.git"
+  },
+  "author": "Joe Dinsdale",
+  "bugs": {
+    "url": "https://github.com/bolser/minable/issues"
+  },
+  "homepage": "https://github.com/bolser/minable#readme",
+
+}
