@@ -6,7 +6,6 @@
   font-size: 0;
 }
 
-// Fix for Firefox
 @supports(flex-flow: row wrap)  {
   [class*="min__g"] {
     display: flex;
